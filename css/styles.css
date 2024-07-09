@@ -1,0 +1,56 @@
+*{box-sizing: border-box}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 70%;
+    background-color: black;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display{
+    height:15%;
+    width:80%;
+    background-color: white;
+    text-align: center;
+    
+
+}
+.blockss{
+    height:22%;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.manual{
+    height: 60%;
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+button{
+    border-radius: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 22%;
+}
+
+.display *{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
