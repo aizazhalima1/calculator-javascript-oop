@@ -24,23 +24,8 @@ class Calculator{
         this.currentOperand=this.currentOperand.toString()+number.toString()
         this.previousOperand=this.previousOperand
         
-          
-       // }
-       // else{
-       //this.currentOperand=this.currentOperand.toString()+number.toString()
-       //}
-       
         }
-      //  appendNumber(number){
-      //      if(this.previousOperand==''){
-      //          this.previousOperand=this.currentOperand
-      //          this.currentOperand=this.currentOperand+number.toString()}
-      //          else{
-      //              this.previousOperand=this.previousOperand
-      //              this.currentOperand=number
-      //          }
-      //     
-      //      }
+     
     chooseOperation(operation){
         if(this.currentOperand=='')return
         if(this.previousOperand!==''){
@@ -117,38 +102,3 @@ equalButton.addEventListener('click',()=>{
     calculator.updateDisplay()
 })
 
-
-
-
-//class Button{
-//    constructor(value){
-//    this.value=value
-//}
-//onClick(){
-//   console.log('hey this is', this.value)
-//}
-//}
-////
-//let Button1=new Button(1)
-//let Button2=new Button(2)
-//let Button3=new Button(3)
-//let Button4=new Button(4)
-//let Button5=new Button(5)
-//let Button6=new Button(6)
-//let Button7=new Button(7)
-//let Button8=new Button(8)
-//let Button9=new Button(9)
-//let Button0=new Button(0)
-//
-//document.querySelectorAll('button').forEach((button)=>button.addEventListener('click',onClicker))
-//
-//function onClicker(){
-//    let val=event.target.value
-//    
-//    
-//}
-//
-
-
-
-//
